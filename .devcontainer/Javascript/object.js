@@ -99,20 +99,33 @@
 
 // console.log(arr[1].pass)
 
+// const myObj={
+//     name:"mrityunjay kumar",
+//     mis:112,
+//     email:"mrityunjay@gmail.com",
+//     address:["bihar","india"]
+// }
+
+// console.log(Object.keys(myObj))
+// console.log(Object.values(myObj))
+// console.log()
+// console.log()
+// console.log(Object.entries(myObj))
+// console.log(myObj.hasOwnProperty("name1"))
+
+
+
 const myObj={
     name:"mrityunjay kumar",
     mis:112,
     email:"mrityunjay@gmail.com",
-    address:["bihar","india"]
+     address:["bihar","india"]
 }
 
-console.log(Object.keys(myObj))
-console.log(Object.values(myObj))
-console.log()
-console.log()
-console.log(Object.entries(myObj))
-console.log(myObj.hasOwnProperty("name1"))
+const {address:A}=myObj
+// console.log(address)
 
+console.log(A)
 
 
 
