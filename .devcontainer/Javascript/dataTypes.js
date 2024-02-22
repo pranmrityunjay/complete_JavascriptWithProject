@@ -7,3 +7,8 @@ let flag=Boolean(true);
 
 console.table([x,flag,marks,value,y,name1]);
 
+
+const addTwo = (num1, num2) => ({username: "hitesh"})
+
+
+console.log(addTwo(3, 4))
