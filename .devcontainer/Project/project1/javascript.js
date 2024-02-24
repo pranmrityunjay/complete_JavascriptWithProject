@@ -20,6 +20,7 @@ buttons.forEach(function (button) {
       body.style.backgroundColor = "purple"
     }
 
+    
     if (e.target.id === 'indigo') {
         body.style.backgroundColor = "indigo"
       }
