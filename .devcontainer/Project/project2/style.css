@@ -1,48 +1,72 @@
-.container {
-    width: 575px;
-    height: 825px;
+#BMI{
+  text-align: center;
+  margin-right: 50px;
+}
+
+#height{
+  width:150px;
+  height:35px;
   
-    background-color: #797978;
-    padding-left: 30px;
-  }
-  #height,
-  #weight {
-    width: 150px;
-    height: 25px;
-    margin-top: 30px;
-  }
+}
+
+#weight {
+  width: 150px;
+  height: 35px;
   
-  #weight-guide {
-    margin-left: 75px;
-    margin-top: 25px;
+}
+ .container { 
+    width: 600px;
+    height: 150px; 
+    margin-left: 300px;
+    margin-top:50px; 
+    /* //white-space: nowrap; */
+   text-align: center;
   }
+
+  
+ .inline-block{
+    display:inline-block; 
+    
+    
+ }
   
   #results {
     font-size: 35px;
     margin-left: 90px;
     margin-top: 20px;
     color: rgb(241, 241, 241);
+    font-family: Helvetica;
   }
   
   button {
     width: 150px;
     height: 35px;
-    margin-left: 90px;
-    margin-top: 25px;
     background-color: #fff;
-    padding: 1px 30px;
     border-radius: 8px;    
     color: #212121;
     text-decoration: none;
     border: 2px solid #212121;
-  
     font-size: 25px;
+     margin-top: 40px; 
+    
   }
   
-  h1 {
-    padding-left: 15px;
-    padding-top: 25px;
-    
 
+  body{
+    background-image:url("pexels-chevanon-photography-317157.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
   }
+
+  #results{
+    margin-left:300px;
+  }
+
+ 
+
+  
+  
+
+
   
