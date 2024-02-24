@@ -1,6 +1,6 @@
-// let num=10000192;
-// console.log(num);
-// console.log(typeof num);
+let num=10000192;
+console.log(num);
+console.log(typeof num);
 
 // let x=new Number(100);
 // console.log(x);
@@ -15,15 +15,15 @@
 
 /*understanding Maths*/
 
-console.log(Math.abs(-4.2));
-console.log(Math.round(4.99));
-console.log(Math.ceil(4.2));
-console.log(Math.floor(4.2));
-console.log(Math.sqrt(16));
-console.log(Math.random()*10+1);
-let min=10;
-let max=20;
+// console.log(Math.abs(-4.2));
+// console.log(Math.round(4.99));
+// console.log(Math.ceil(4.2));
+// console.log(Math.floor(4.2));
+// console.log(Math.sqrt(16));
+// console.log(Math.random()*10+1);
+// let min=10;
+// let max=20;
 
- console.log(Math.floor(Math.random()*(max-min+1)+min));
+//  console.log(Math.floor(Math.random()*(max-min+1)+min));
 
 
