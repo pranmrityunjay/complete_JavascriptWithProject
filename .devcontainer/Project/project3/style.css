@@ -43,9 +43,11 @@ body {
     
     border:5px solid black;
     border-radius: 5px;
-    font-size: 35px;
+    font-size: 30px;
     
     color: white;
+    font-family: Arial;
+    text-transform: capitalize;
 
  }
 
