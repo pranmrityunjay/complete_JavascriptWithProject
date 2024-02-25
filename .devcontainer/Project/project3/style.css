@@ -1,0 +1,54 @@
+body {
+     background-color:#212121; 
+    color: #fff;
+  }
+
+  div{
+    display: inline-block;
+    height:40px;
+    width:150px;
+    
+ }
+
+ #container{
+    height:300px;
+    width:300px;
+    background-color: red;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top:115px;
+    margin-left:450px;
+
+    
+    
+    
+
+
+
+ } 
+
+ #LocalTime{
+    background-color:green;
+    border:5px solid pink;
+    border-radius: 5px;
+    color: aqua;
+    margin-bottom: 50px;
+    
+ }
+
+ #realtime{
+    
+    border:5px solid purple;
+    border-radius: 5px;
+    background-color:indigo;
+    color: aqua;
+
+ }
+
+
+
+
+
