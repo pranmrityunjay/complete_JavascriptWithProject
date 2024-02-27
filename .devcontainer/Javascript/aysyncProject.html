@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnign Async</title>
+</head>
+<body>
+
+    <h1 id="heading"> Learning javascript</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    
+</body>
+
+<script>
+   
+
+    // setTimeout(function(){
+    //     console.log("delay two second");
+    // },2000)\
+
+    // function functionReference(){
+    //     console.log("delay two second");
+    //     document.querySelector("h1").innerHTML="change javascript";
+    // }
+
+    // setTimeout(functionReference,3000);
+
+
+    // function functionReference(){
+    //     console.log("delay two second");
+    //     document.querySelector("h1").innerHTML="change javascript";
+    // }
+
+    // let StopChangeBeforeTimeForChange=setTimeout(functionReference,3000);
+
+    // document.querySelector("#stop").addEventListener('click',function(){
+    //     clearTimeout(StopChangeBeforeTimeForChange)
+    // })
+
+    // function Interval(para){
+    //     console.log(para,Date.now())
+    // }
+
+    // const Run=setInterval(Interval,2000,"hi")
+    // clearInterval(Run);
+     
+
+   function findColor(){
+    let color="#";
+    const AllColor="123456789ABCDEF";
+
+    for(let i=0;i<6;i++){
+        color+=AllColor[Math.floor(Math.random()*16)];
+    }
+
+    return color;
+
+
+
+   }
+  
+    function changeColor(){
+    let color=findColor();
+    document.querySelector("body").style.backgroundColor=color;
+
+   
+   }
+
+   let X;
+   function createInterval(){
+    if(!X)
+    X=setInterval(changeColor,100);
+    
+   }
+  
+
+   document.querySelector("#start").addEventListener('click',(E)=>{
+    createInterval();
+   })
+
+   document.querySelector("#stop").addEventListener('click',(E)=>{
+    clearInterval(X);
+    X=null;
+
+   })
+
+
+
+
+
+
+    
+  
+
+     
+
+
+
+
+
+</script>
+</html>
