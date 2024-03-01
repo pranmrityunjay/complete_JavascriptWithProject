@@ -9,7 +9,6 @@
 
 
 
-
 // myPromise.then(function(val){
 //     console.log(val);
 // })

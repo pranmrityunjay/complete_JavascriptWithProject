@@ -59,7 +59,7 @@ document.querySelector(".form button").addEventListener('click', async (E)=>{
     let data = await response.json();
     console.log(data)
      
-    
+
     
     
      
