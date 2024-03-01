@@ -88,7 +88,6 @@
 // })
 
 
-my namejdj
 
 // const promiseFour = new Promise(function(resolve, reject){
 //     setTimeout(function(){

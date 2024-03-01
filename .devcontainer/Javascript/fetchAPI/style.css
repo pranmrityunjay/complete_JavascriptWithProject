@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #7bd3ff;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+
+
+}
+
+.container{
+    background-color:white;
+    padding:2rem;
+    border-radius:15px;
+     min-height:60vh;
+    width:55vh; 
+    
+
+}
+
+.form{
+    margin-top:2rem;
+
+    
+    
+}
+
+form select,input,button{
+    width:100%;
+    border:none;
+    outline: none;  
+    border-radius:0.75rem; 
+    
+
+}
+
+
+
+ form input{
+    border:1px solid gray;
+    font-size:1rem;
+    height:3rem;
+    padding-left:1rem;
+
+}
+
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1.5rem;
+
+    
+} 
+
+.selectContainer img{
+    max-width:1.8rem;
+
+
+}
+
+
+
+
+.selectContainer {
+    height:30px;
+    width:90px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid rgba(0, 0, 0, 0.461);
+    border-radius:5px;
+    margin:5px;
+    padding:5px; 
+
+
+
+    
+}
+
+form  select{
+    margin-left:5px;
+    padding-left: 5px;;
+    border-radius:0.08rem;
+    
+
+
+
+}
+.dropdown i{
+    font-size:20px;
+    margin-top:15px;
+}
+
+.msg{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+.form button{
+    height:40px;
+    background-color:#00baf2;
+    font-family: sans-serif;
+    font-size:16px;
+    color:#ffffff;
+    cursor:pointer;
+    
+}
+.amount p{
+    margin-bottom:5px;
+
+
+}
+
+
+
+
+
+
+
+
+ 
