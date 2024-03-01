@@ -88,7 +88,7 @@
 // })
 
 
-
+my namejdj
 
 // const promiseFour = new Promise(function(resolve, reject){
 //     setTimeout(function(){
@@ -126,6 +126,8 @@
 
 
 
+
+
 // async function consumePromiseFive(){
 //     try {
 //         const response = await promiseFive
@@ -133,45 +135,55 @@
 //     } catch (error) {
 //         console.log(error);
 //     }
-// }
+// } 
 
 
 //  consumePromiseFive()
 
 
 
-async function getAllUsers(){
-    try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+// async function getAllUsers(){
+//     try {
+//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
 
-        const data = await response.json()
-        console.log(data);
-    } catch (error) {
-        console.log("E: ", error);
-    }
-}
+//         const data = await response.json()
+//         console.log(data);
+//     } catch (error) {
+//         console.log("E: ", error);
+//     }
+// }
+
+// getAllUsers();
 
 
 // async function getAllUsers(){
-//     try{
-//         const responce=await fetch('https://jsonplaceholder.typicode.com/users')
-//         const data=await responce.jason();
-//         console.log(data)
-//     }
-//     catch(error){
-//         console.log("E: ",error)
-//     }
+    // try{
+    //     const responce=await fetch('https://jsonplaceholder.typicode.com/users')
+    //     const data=await responce.jason();
+    //     console.log(data)
+    // }
+    // catch(error){
+    //     console.log("E: ",error)
+    // }
 // }
 // getAllUsers()
 
-fetch('https://api.github.com/users/hiteshchoudhary')
-.then((response) => {
-    return response.json()
-})
-.then((data) => {  
-    console.log(data);
-})
-.catch((error) => console.log(error))
+
+// fetch('https://api.github.com/users/hiteshchoudhary')
+// .then((response) => {
+//     return response.json()
+// })
+// .then((data) => {  
+//     console.log(data);
+// })
+// .catch((error) => console.log(error))
+
+
+
+
+
+
+
 
 // promise.all
 // // yes this is also available, kuch reading aap b kro.
