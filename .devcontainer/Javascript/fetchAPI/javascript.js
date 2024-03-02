@@ -4,11 +4,11 @@ const BASE_URL =
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 let amount=document.querySelector('.amount input')
-const fromCurr=document.querySelector(".from select");
-const toCurr=document.querySelector(".to select");
+const fromCurr = document.querySelector(".from select");
+const toCurr = document.querySelector(".to select");
 
 // for(let code in countryList )
-// console.log(code)
+
 
 
 for (let select of dropdowns) {
@@ -53,9 +53,10 @@ function updateFlag(element){
 document.querySelector(".form button").addEventListener('click', async (E)=>{
     E.preventDefault();
     //  let temp=amount.value;
-
-    const URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/inr/jpy.json"
-    let response = await fetch(URL);
+    const URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies"
+    //console.log(fromCurr.value.toLowerCase())
+    let response = await fetch(`${URL}/${fromCurr.value.toLowerCase()}/${
+        toCurr.value.toLowerCase()}.json`);
     let data = await response.json();
     console.log(data)
      
